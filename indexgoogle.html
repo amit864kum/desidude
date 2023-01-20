@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Desidudewithsign </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <div class="navigation-container">
+            <div class="top-head">
+                <div class="web-name">
+                    <h1>Desidudewithsign</h1>
+                </div>
+
+                <div class="ham-btn">
+                    <span>
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </div>
+
+                <div class="times-btn">
+                    <span>
+                        <i class="fas fa-times"></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- nav bar -->
+
+            <div class="nav-bar" id="nav-bar">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="index.html">top Stories</a></li>
+                        <li><a href="indexworld.html">world affairs</a></li>
+                        <li><a href="index2.html">About us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="google">
+        <h1>Why Google pre-installed the own app in his android?</h1>
+        <img src="images/banner-news-2.jpg">
+        <br><br>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dicta illo dolorum pariatur sequi obcaecati, voluptatem itaque odit. Cum veniam nemo quidem ea alias aspernatur facilis error dolore debitis, doloremque nobis aperiam esse, aut libero! Nemo exercitationem obcaecati non at veniam? Unde nemo eveniet ipsum officia, amet reprehenderit delectus id.</p>
+        <br><br>
+        <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam est, officiis debitis ipsa repellendus in natus vero corporis illum. Eaque repellendus cum distinctio, assumenda ipsa corporis quo. Sit quaerat enim quos maiores inventore dignissimos vitae consequuntur odit reiciendis modi accusantium quo a eum cum consequatur, eveniet error voluptatibus soluta at, fuga praesentium? Sint architecto reiciendis recusandae quasi soluta delectus ex!</p>
+        <br><br>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda saepe laudantium ad sapiente nulla molestias asperiores ex neque in ratione eaque quis tempora impedit magni deleniti vitae, incidunt voluptatum! Cum non, quaerat laborum similique repudiandae consequuntur repellat ratione nesciunt soluta temporibus nihil dolorem eaque recusandae ullam? Cumque, ratione rem?</p>
+    </section>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2>Desidudewithsign</h2>
+                <p>Desidudewithsign is a youth-run independent news, analysis, opinion, and knowledge venture launched
+                    in August 2020 by editor Nikhil Singh jaral. We publish videos and articles curated through verified
+                    sources from across the globe.
+                </p>
+            </div>
+
+            <div class="footer-right">
+                <h2>Follow Us</h2>
+                <p>
+                    <a href="mailto: singhjaralnikhil21@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                    <a href="https://twitter.com/nikhilsingh21_" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/desidudewithsignyt/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i
+                            class="fa fa-instagram"></i></a>
+                    <a href="https://youtube.com/@desidudewithsign " target="_blank"><i
+                            class="fa fa-youtube-play"></i></a>
+                </p>
+
+
+            </div>
+        </div>
+
+        <p>Copyright &copy; 2023 All rights reserved</p>
+        <p><a href="#" target="_blank" style="color: beige;">Design and Developed by Web_Worker</a> </p>
+    </footer>
+
+
+    
+
+    
+
+    <script>
+
+        const btnHam = document.querySelector('.ham-btn');
+        const btnTimes = document.querySelector('.times-btn');
+        const navBar = document.getElementById('nav-bar');
+
+        btnHam.addEventListener('click', function () {
+            if (btnHam.className !== "") {
+                btnHam.style.display = "none";
+                btnTimes.style.display = "block";
+                navBar.classList.add("show-nav");
+            }
+        })
+
+        btnTimes.addEventListener('click', function () {
+            if (btnHam.className !== "") {
+                this.style.display = "none";
+                btnHam.style.display = "block";
+                navBar.classList.remove("show-nav");
+            }
+        })
+
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000,
+            speedAsDuration: true
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script src="script.js" async defer></script>
+</body>
+
+</html>

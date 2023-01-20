@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Desidudewithsign </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <div class="navigation-container">
+            <div class="top-head">
+                <div class="web-name">
+                    <h1>Desidudewithsign</h1>
+                </div>
+
+                <div class="ham-btn">
+                    <span>
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </div>
+
+                <div class="times-btn">
+                    <span>
+                        <i class="fas fa-times"></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- nav bar -->
+
+            <div class="nav-bar" id="nav-bar">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="index.html">top Stories</a></li>
+                        <li><a href="indexworld.html">world affairs</a></li>
+                        <li><a href="index2.html">About us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="twitter">
+        <h1>Twitter's New Retweet With Comment Counter Is Now Available On Andriod & Web</h1><br>
+        <img
+            src="https://images.pexels.com/photos/5417837/pexels-photo-5417837.jpeg?auto=compress&cs=tinysrgb&w=600"><br><br>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate optio explicabo
+            molestias suscipit nam
+            animi quos maxime nemo ducimus blanditiis qui culpa pariatur ut eius, quisquam, adipisci sequi quo ipsa!
+            Ducimus laboriosam alias sunt totam incidunt quam suscipit! Nisi explicabo officiis cupiditate laudantium
+            recusandae perspiciatis quos veniam, ipsa tenetur distinctio reprehenderit. Ratione eos fugit nobis vel
+            aliquid dolores? Provident, odio?</p> <br><br>
+        <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi blanditiis temporibus
+            debitis saepe
+            perspiciatis repudiandae doloribus ipsam expedita eos numquam! Amet possimus aliquid eaque, magni sed ea
+            sapiente voluptates quos asperiores quod alias eum quia laboriosam fugit laborum a vero. Unde sequi sapiente
+            perferendis. Doloribus similique a distinctio itaque! Maxime pariatur mollitia repellat veritatis possimus
+            reprehenderit eum rerum cum quisquam.</p> <br><br>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum nostrum voluptas libero
+            voluptatem, quidem
+            necessitatibus, facilis tempora non eos reiciendis aperiam? Debitis, aliquid! Delectus soluta minima
+            ducimus, aliquid enim consequuntur repellat eius architecto similique expedita deserunt labore, minus
+            asperiores aut dolor esse blanditiis corrupti? Tempore, molestias, voluptas optio maxime recusandae
+            consequatur, sunt quae blanditiis natus aspernatur minima dolor obcaecati ea delectus corrupti saepe
+            excepturi exercitationem eaque non in dolores! Aliquid culpa quo cum obcaecati quis tempora ipsum
+            accusantium veritatis nobis.</p>
+
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2>Desidudewithsign</h2>
+                <p>Desidudewithsign is a youth-run independent news, analysis, opinion, and knowledge venture launched
+                    in August 2020 by editor Nikhil Singh jaral. We publish videos and articles curated through verified
+                    sources from across the globe.
+                </p>
+            </div>
+
+            <div class="footer-right">
+                <h2>Follow Us</h2>
+                <p>
+                    <a href="mailto: singhjaralnikhil21@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                    <a href="https://twitter.com/nikhilsingh21_" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/desidudewithsignyt/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i
+                            class="fa fa-instagram"></i></a>
+                    <a href="https://youtube.com/@desidudewithsign " target="_blank"><i
+                            class="fa fa-youtube-play"></i></a>
+                </p>
+
+
+            </div>
+        </div>
+
+        <p>Copyright &copy; 2023 All rights reserved</p>
+        <p><a href="#" target="_blank" style="color: beige;">Design and Developed by Web_Worker</a> </p>
+    </footer>
+
+
+    
+    <script>
+
+        const btnHam = document.querySelector('.ham-btn');
+        const btnTimes = document.querySelector('.times-btn');
+        const navBar = document.getElementById('nav-bar');
+
+        btnHam.addEventListener('click', function () {
+            if (btnHam.className !== "") {
+                btnHam.style.display = "none";
+                btnTimes.style.display = "block";
+                navBar.classList.add("show-nav");
+            }
+        })
+
+        btnTimes.addEventListener('click', function () {
+            if (btnHam.className !== "") {
+                this.style.display = "none";
+                btnHam.style.display = "block";
+                navBar.classList.remove("show-nav");
+            }
+        })
+
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000,
+            speedAsDuration: true
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script src="script.js" async defer></script>
+</body>
+
+</html>

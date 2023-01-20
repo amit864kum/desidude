@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Desidudewithsign </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <!-- google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <div class="navigation-container">
+            <div class="top-head">
+                <div class="web-name">
+                    <h1>Desidudewithsign</h1>
+                </div>
+
+                <div class="ham-btn">
+                    <span>
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </div>
+
+                <div class="times-btn">
+                    <span>
+                        <i class="fas fa-times"></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- nav bar -->
+
+            <div class="nav-bar" id="nav-bar">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="index.html">top Stories</a></li>
+                        <li><a href="indexworld.html">world affairs</a></li>
+                        <li><a href="index2.html">About us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="politics">
+        <h1>China Chicanery: It has been shielding Pakistani terror masterminds at UNSC... tried saving Makki too</h1><br>
+        <img src="https://images.firstpost.com/wp-content/uploads/2023/01/Abdul-Rehman-Makki.jpg?impolicy=website&width=640&height=363" >
+        <br><br>
+        <p class="paragraph"><strong>New Delhi: </strong> India in its UNSC tenure during 2021-22 had submitted five names, including Lashkar-e-Taiba deputy chief Abdul Rehman Makki, in its listings of Pakistan based terrorists that it sought to be blacklisted. Back then, China placed a technical hold, while all the other 14 members of the Council agreed to their listings.
+
+            On Monday, China, released the technical hold, finally enabling the UN Security Council’s 1267 Al Qaeda Sanctions Committee to add 68-year-old Abdul Rehman Makki to its list of designated terrorists.
+            
+            Those in the list are subject to the assets freeze, travel ban, and arms embargo.</p><br><br>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor odit tempore, eveniet perferendis, cum quo hic excepturi aperiam id quod eaque in quis incidunt, voluptate fuga accusantium molestiae beatae sit ipsam obcaecati minus? Porro quia facilis rem non nulla ullam, sapiente aspernatur eligendi amet, blanditiis mollitia alias eaque sed nesciunt.</p><br>
+                <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, deleniti exercitationem provident eius iste fugit praesentium hic maxime, odio ut, rem at repellat non veritatis perspiciatis culpa ea debitis tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, reprehenderit? Inventore vitae illo consequatur, doloremque tempore atque non possimus dicta?</p><br>
+                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, accusamus veritatis vero rerum repellendus architecto tenetur similique autem deleniti quibusdam fuga libero aspernatur corrupti. Quisquam sit, molestiae nulla dolore harum illo? Optio aspernatur voluptates numquam, inventore assumenda blanditiis architecto id, earum magnam eius iste, nobis quos quam laboriosam ipsam deserunt possimus esse corporis adipisci eos eum nemo incidunt! Autem, iusto!</p><br>
+    </div>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2>Desidudewithsign</h2>
+                <p>Desidudewithsign is a youth-run independent news, analysis, opinion, and knowledge venture launched
+                    in August 2020 by editor Nikhil Singh jaral. We publish videos and articles curated through verified
+                    sources from across the globe.
+                </p>
+            
+            </div>
+
+
+
+            <div class="footer-right">
+                <h2>Follow Us</h2>
+                <p>
+                    <a href="mailto: singhjaralnikhil21@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                    <a href="https://twitter.com/nikhilsingh21_" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/desidudewithsignyt/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i
+                            class="fa fa-instagram"></i></a>
+                    <a href="https://youtube.com/@desidudewithsign " target="_blank"><i
+                            class="fa fa-youtube-play"></i></a>
+                </p>
+
+
+            </div>
+        </div>
+
+        <p>Copyright &copy; 2023 All rights reserved</p>
+        <p><a href="#" target="_blank" style="color: beige;">Design and Developed by Web_Worker</a> </p>
+    </footer>
+
+
+
+
+
+    <script>
+
+        const btnHam = document.querySelector('.ham-btn');
+        const btnTimes = document.querySelector('.times-btn');
+        const navBar = document.getElementById('nav-bar');
+
+        btnHam.addEventListener('click', function () {
+            if (btnHam.className !== "") {
+                btnHam.style.display = "none";
+                btnTimes.style.display = "block";
+                navBar.classList.add("show-nav");
+            }
+        })
+
+        btnTimes.addEventListener('click', function () {
+            if (btnHam.className !== "") {
+                this.style.display = "none";
+                btnHam.style.display = "block";
+                navBar.classList.remove("show-nav");
+            }
+        })
+
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000,
+            speedAsDuration: true
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script src="script.js" async defer></script>
+</body>
+
+</html>

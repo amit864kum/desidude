@@ -1,0 +1,97 @@
+#lastone{
+    background-color: rgb(15, 1, 1);
+    color: #fff;
+    margin-top: 25rem;
+    text-align: center;
+    padding-top: 3%;
+}
+#lastone .footer-1 p{
+    line-height: 3rem;
+}
+
+.footer-2{
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 2rem;
+}
+.footer-2 a{
+    color: #fff;
+    padding: 10px;
+}
+.tech-news{
+    text-transform: uppercase;
+    color: red;
+    text-align: center;
+    padding: 10px;
+}
+#world-affair, .upi, .upi-3,.relations,.tension,.google,.global,.origin,.geo,.politics,.twitter,.html-5,.html-6,.html-7,.html-8,.html-9,.html-10{
+    margin: 5% 10%;
+    /* width: 65%; */
+    font-family: 'Poppins', sans-serif;
+}
+.world-affairs h1{
+    font-size: 30px;
+}
+.rishi{
+    /* width: 70%; */
+    margin-top: 2%;
+}
+.paragraph{
+    color: rgb(46, 45, 45);
+    line-height: 1.5rem;
+}
+.world-affairs2, .child, .tooth{
+    /* width: 70%; */
+    font-size: 15px;
+}
+@media screen and (max-width: 770px){
+    .world-affairs h1{
+        width: 105%;
+    }
+    .rishi{
+        width: 100%;
+    }
+    .world-affairs2, .child, .tooth{
+        width: 100%;
+        font-size: 16px;
+    }
+    /* .upi{
+        width: 90%;
+        scroll-behavior: smooth;
+    } */
+}
+.upi-1 img{
+    width: 90%;
+    border-radius: 3rem;
+    padding-top: 10px;
+}
+.upi-2 h3{
+    color: blue;
+    padding-top: 35px;
+}
+.upi-2 .unordered{
+    line-height: 2rem;
+    list-style-type: disc;
+}
+.upi-2 .circle{
+    padding-left: 1rem;
+    list-style-type: circle;
+}
+.hand{
+    padding-top: 15px;
+}
+.bhutan{
+    padding-top: 15px;
+    width: 70%;
+    height: auto;
+    padding-bottom: 20px;
+}
+.nepal,.oman,.uae,.france,.malaysia,.singapore,.uk{
+    padding-top: 2rem;
+    width: 70%;
+    height: auto;
+    padding-bottom: 20px;
+}
+.figure{
+    height: 60%;
+}
